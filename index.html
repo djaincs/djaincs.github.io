@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divya Jain</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/project.css">
+    <link rel="stylesheet" href="styles/certificate.css">
+    <link rel="stylesheet" href="styles/contact.css">
+
+    <!-- Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <!-- profile -->
+        <div class="profile">
+            <a href="#home"><img src="images/profile1.jpg" alt="" width="150px"></a>
+            <h1>Divya Jain</h1>
+            <div class="media-icons">
+                <a href="mailto:divyajain25083@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/divyajain25/" target="_blank"><i
+                        class=" fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/djaincs" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+
+        <!-- Navbar -->
+        <nav>
+            <ul>
+                <li><a href="#home" class="active"><i class="fa-solid fa-house"></i>Home</a></li>
+                <li><a href="#about" class="active"><i class="fa-solid fa-user"></i>About Me</a></li>
+                <li><a href="#projects" class="active"><i class="fa-solid fa-list-check"></i>Projects</a></li>
+                <li><a href="#certificate" class="active"><i class="fa-solid fa-briefcase"></i>Certifications</a></li>
+                <li><a href="#contact" class="active"><i class="fa-solid fa-envelope"></i>Contact</a></li>
+
+                <a href="images/Resume_Divya Jain.pdf" download class="btn btn2">Download Resume</a>
+            </ul>
+        </nav>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>Copyright &copy; Made by Divya Jain!!</p>
+        </div>
+
+    </header>
+
+    <!-- Mobile Nav Toggle -->
+    <i class="fa-solid fa-bars" id="menubtn"></i>
+
+    <!-- Main Body -->
+    <main>
+
+        <!-- Home -->
+        <section id="home">
+            <div class="name">
+                <h1>
+                    Hi, This is <br>Divya Jain.
+                </h1>
+            </div>
+        </section>
+
+        <!-- About Me -->
+        <section id="about">
+
+            <h1 class="heading">About Me</h1>
+            <div class="divider"></div>
+            <p>
+                My name is Divya Jain. I am born and brought up in Jaipur. Currently, I am
+                pursuing B-tech in Computer Science Engineering from Jaipur Engineering College
+                and Research Centre. During my 3 years of college, I learned various programming
+                languages like C, Cpp, and python, I have a knowledge about Data structures and
+                algorithms and I am familiar with HTML, CSS, JavaScript too.
+                I have used my skills to build multiple projects that include Emotion detection and
+                portfolio website etc.
+                Apart from my academics, I have been the Campus Ambassador of Coding Ninjas
+                and the member of social club “Suhasini: An Initiative to Save the Smile of Girl
+                Child” in our college.
+                In my free time I enjoy painting and dancing.
+                I see myself as a focused person and as a quick learner.
+                As a beginner, I want to build my career with a well-known organization where I
+                can apply my knowledge and skills and gain hands on experience.
+            </p>
+
+            <div class="about-col">
+
+                <!-- img column -->
+                <div class="img-col">
+                    <img src="images/profile1.jpg" alt="">
+                </div>
+
+                <!-- Information -->
+                <div>
+                    <div class="tab-titles">
+                        <div class="tabs-data">
+                            <p class="tab-links active-link" onclick="opentab('Education')">
+                                Education
+                            </p>
+                        </div>
+                        <div class="tabs-data">
+                            <p class="tab-links" onclick="opentab('Skills')">
+                                Technical Skills
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="tab-contents active-tab" id="Education">
+                        <ul>
+                            <li> <span>2020-2024 </span> Bachelors of Technology
+                                Jaipur Engineering College and <br>
+                                Research Centre <br>
+                                Aggregate 9.29 cgpa</li>
+                            <li> <span>2020 </span> Class XII,
+                                Maheshwari Girls Sr. Sec. School, Jaipur <br>Scored 85.0%
+                                <br>Board - RBSE
+                            </li>
+                            <li> <span>2018</span> Class X,
+                                Popular English Sr. Sec. School, Jaipur
+                                <br>Scored 83.50%
+                                <br>Board - RBSE
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Skills">
+                        <ul>
+                            <li><i class="fa-solid fa-angle-right"></i><span class="skill">C/Cpp</span> </li>
+                            <li><i class="fa-solid fa-angle-right"></i><span class="skill">Python</span></li>
+                            <li><i class="fa-solid fa-angle-right"></i><span class="skill">HTML</span> </li>
+                            <li><i class="fa-solid fa-angle-right"></i><span class="skill">CSS</span> </li>
+                            <li><i class="fa-solid fa-angle-right"></i><span class="skill">JavaScript</span> </li>
+                            <li><i class="fa-solid fa-angle-right"></i><span class="skill">Data Structures and
+                                    Algorithms</span> </li>
+                            <li><i class="fa-solid fa-angle-right"></i><span class="skill">Object Oriented
+                                    Programming</span> </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+        </section>
+
+        <!-- Projects -->
+        <section id="projects">
+
+            <h1 class="heading">Projects</h1>
+            <div class="divider"></div>
+            <div class="project-list">
+                <div class="work">
+                    <img src="images/p1.png" alt="">
+                    <div class="detail">
+                        <h3>Imotions</h3>
+                        <p>It is a website based on Face Emotion Detection.
+                            Basically, this is a website which detects a person face
+                            emotion simply by using your webcam. It is very User
+                            friendly as it is very simple to use.</p>
+                        <a href="https://github.com/djaincs/Face_Emotion_Detection" target="_blank">Link</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/p2.png" alt="">
+                    <div class="detail">
+                        <h3>Portfolio</h3>
+                        <p>
+                            On this website, you can find information about me as well as my educational background, my technical skills, projects, certifications, and my resume. It is made by using HTML, CSS, JavaScript.
+                        </p>
+                        <a href="#">Link</a>
+                    </div>
+                </div>
+            </div>
+
+            </h1>
+        </section>
+
+        <!-- Cerifications -->
+        <section id="certificate">
+            <h1 class="heading">Certificates</h1>
+            <div class="divider"></div>
+
+            <div class="certificate-list">
+                <div class="training">
+                    <img src="images/web_development.png" alt="">
+                    <div class="det">
+                        <a href="images/web_development.png" download>Download</a>
+                    </div>
+                </div>
+                <div class="training">
+                    <img src="images/machine_learning.jpg" alt="">
+                    <div class="det">
+                        <a href="images/machine_learning.jpg" download>Download</a>
+                    </div>
+                </div>
+                <div class="training">
+                    <img src="images/python.png" alt="">
+                    <div class="det">
+                        <a href="images/python.png" download>Download</a>
+                    </div>
+                </div>
+                <div class="training">
+                    <div class="imgheight">
+                        <img src="images/c_cpp.jpg" alt="">
+                    </div>
+                    <div class="det">
+                        <a href="images/c_cpp.jpg" download>Download</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <h1 class="heading">Contact</h1>
+            <div class="divider"></div>
+
+            <div class="contact-row">
+
+                <!-- Left column -->
+                <div class="contact-left">
+                    <!-- email box -->
+                    <div class="icon-box">
+                        <div class="icon">
+                            <i class="fa-solid fa-envelope">
+                            </i>
+                        </div>
+                        <div class="info">
+                            <h4>Email:</h4>
+                            <p>divyajain25083@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <!-- Call box -->
+                    <div class="icon-box">
+                        <div class="icon">
+                            <i class="fa-solid fa-phone">
+                            </i>
+                        </div>
+                        <div class="info">
+                            <h4>Call:</h4>
+                            <p>+91 9649998696</p>
+                        </div>
+                    </div>
+
+                    <!-- Location box -->
+                    <div class="icon-box">
+                        <div class="icon">
+                            <i class="fa-solid fa-location-dot">
+                            </i>
+                        </div>
+                        <div class="info">
+                            <h4>Loacation:</h4>
+                            <p>Jaipur, Rajasthan, India</p>
+                        </div>
+                    </div>
+
+                    <!-- Map -->
+                    <div class="map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d227748.43602249242!2d75.62574368986792!3d26.885421391426227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396c4adf4c57e281%3A0xce1c63a0cf22e09!2sJaipur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1682783620778!5m2!1sen!2sin"
+                            width="100%" height="250" style="border:0;" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                </div>
+
+                <!-- Right column -->
+                <div class="contact-right">
+
+                    <form action="mailto:divyajain25083@gmail.com" method="post" enctype="text/plain">
+
+                        <input type="text" name="name" id="name" placeholder="Your Name...">
+
+                        <input type="email" name="email" id="email" placeholder="Email">
+
+                        <textarea name="message" id="message" rows="9" placeholder="Your Message..."></textarea>
+
+                        <input type="submit" value="Submit">
+
+                    </form>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+
+
+
+
+    <!-- JavaScript -->
+    <script src="portfolio.js"></script>
+
+    <!-- Typed.js file (for typing effect) -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- font-awesome Js File -->
+    <script src="https://kit.fontawesome.com/7d1e8c12fb.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

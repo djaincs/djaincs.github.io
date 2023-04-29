@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',Arial;
+}
+
+/* Global Variables */
+/* A good way to use CSS variables is when it comes to the colors of your design. Instead of copy and paste the same colors over and over again, you can place them in variables.
+
+To create a variable with global scope, declare it inside the :root selector. The :root selector matches the document's root element.
+
+To create a variable with local scope, declare it inside the selector that is going to use it using var(),
+
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+}
+
+body { background-color: var(--blue); }
+*/
+
+
+:root{
+    --sideBGColor: #040b14;
+    --themeColor: #00A78E;
+    --iconBGColor: #2C2F3F;
+    --textColor: #352e2e;
+    --bgColor: #F7F7F7;
+}

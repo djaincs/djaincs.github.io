@@ -1,0 +1,157 @@
+header {
+    height: 100vh;
+    width: 300px;
+    padding: 15px 30px;
+    background-color: var(--sideBGColor);
+    overflow-y: auto;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    transition: 0.4s;
+    z-index: 99;
+}
+
+header .profile {
+    text-align: center;
+    margin: 10px 0;
+}
+
+header .profile img {
+    width: 150px;
+    border-radius: 50%;
+    border: 8px solid var(--iconBGColor);
+}
+
+header .profile h1 {
+    color: white;
+    font-weight: 500;
+}
+
+header .profile .media-icons a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 37px;
+    background-color: var(--iconBGColor);
+    color: white;
+    font-size: 18px;
+    margin: 2px;
+    transition: 0.4s;
+}
+
+header .profile .media-icons a:hover {
+    background-color: var(--themeColor);
+}
+
+/* Navbar */
+
+header nav {
+    margin-top: 30px;
+}
+
+header nav ul li {
+    list-style-type: none;
+}
+
+header nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 10px;
+    margin: 7px 0;
+    color: lightgray;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 0.6px;
+}
+
+header nav ul li a i {
+    margin-right: 10px;
+    font-size: 20px;
+    transition: 0.4s;
+}
+
+header nav ul li a:hover i {
+    color: var(--themeColor);
+}
+
+header nav ul li a:active i {
+    color: var(--themeColor);
+}
+.btn {
+    display: block;
+    margin: 10px auto;
+    width: fit-content;
+    border: 1px solid var(--themeColor);
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    transition: background 0.5s;
+    cursor: pointer;
+
+}
+.btn:hover {
+    background: var(--themeColor);
+}
+.btn .btn2{
+    display: inline-block;
+    background: var(--themeColor);
+}
+
+/* Footer */
+header .footer {
+    text-align: center;
+    background-color: var(--sideBGColor);
+    width: 300px;
+    color: lightgray;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    transition: 0.4s;
+}
+
+/* Mobile Nav Toggle  */
+#menubtn {
+    position: fixed;
+    top: 25px;
+    right: 25px;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    color: white;
+    background-color: var(--themeColor);
+    text-align: center;
+    line-height: 42px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 20%);
+    display: none;
+    z-index: 999;
+}
+
+/* Mobile view */
+
+@media only screen and (max-width: 1050px){
+    header{
+        left: -300px;
+    }
+    header .footer{
+        left: -300px;
+    }
+    #menubtn{
+        display: block;
+    }
+}
+
+/* Header toggle */
+.mobile-nav-active header{
+    left: 0;
+}
+.mobile-nav-active header .footer{
+    left: 0;
+}
