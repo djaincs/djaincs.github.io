@@ -12,7 +12,7 @@ main{
 #home{
     height: 100vh;
     width: 100%;
-    background-image: url(images/bg.jpg);
+    background-image: linear-gradient(to right, rgba(225, 236, 235, 0.4),rgba(91, 240, 245, 0.8));
     background-size: cover;
     background-attachment: fixed;
     display: flex;
