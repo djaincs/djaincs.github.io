@@ -64,8 +64,9 @@
 /* Mobile View */
 @media only screen and (max-width:800px){
     #certificate{
+        margin: 20px;
         padding: 20px;
-        height: 120vh;
+        height: 170vh;
     }
     .certificate-list{
         display: grid;
@@ -79,13 +80,6 @@
         border-radius: 10px;
         margin-left: 20px;
         margin-bottom: 9px;
-    }
-}
-@media only screen and (max-width:800px){
-    #certificate{
-        margin: 20px;
-        padding: 20px;
-        height: 170vh;
     }
 }
 @media only screen and (max-width:400px){
