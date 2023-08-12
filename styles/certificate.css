@@ -81,6 +81,13 @@
         margin-bottom: 9px;
     }
 }
+@media only screen and (max-width:800px){
+    #certificate{
+        margin: 20px;
+        padding: 20px;
+        height: 110vh;
+    }
+}
 @media only screen and (max-width:400px){
     #certificate{
         padding: 20px;

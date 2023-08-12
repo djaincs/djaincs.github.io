@@ -1,6 +1,8 @@
 #contact{
     padding: 30px 30px;
     height: 100vh;
+    background-color: #bbdbd6;
+    background-image: linear-gradient(to right, rgba(225, 236, 235, 0.4),rgba(91, 240, 245, 0.8));
 }
 #contact .contact-row{
     margin-top: 30px;
